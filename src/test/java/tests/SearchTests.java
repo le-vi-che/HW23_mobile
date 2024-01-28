@@ -27,8 +27,6 @@ public class SearchTests extends TestBase {
                 $$(id("org.wikipedia.alpha:id/page_list_item_title")).first().click());
 
         step("Проверяем получение ошибки", () ->
-
-
                 $(id("org.wikipedia.alpha:id/view_wiki_error_text")).shouldBe(visible));
     }
     }
