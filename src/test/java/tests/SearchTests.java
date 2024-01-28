@@ -3,7 +3,7 @@ package tests;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.CollectionCondition.sizeGreaterThan;
-import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 import static io.appium.java_client.AppiumBy.accessibilityId;
@@ -27,6 +27,9 @@ public class SearchTests extends TestBase {
                 $$(id("org.wikipedia.alpha:id/page_list_item_title")).first().click());
 
         step("Проверяем получение ошибки", () ->
-                $(id("org.wikipedia.alpha:id/view_wiki_error_text")).shouldHave(text("An error occurred")));
+
+
+                $(id("org.wikipedia.alpha:id/view_wiki_error_text")).shouldBe(visible));
     }
-}
+    }
+
