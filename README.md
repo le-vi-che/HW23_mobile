@@ -11,11 +11,12 @@
 - [Видео примера запуска тестов в Selenoid](#-видео-примера-запуска-теста-в-selenoid)
 
   ## :computer: Использованный стек технологий
-  <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/IJ.svg">
+  
+ <p align="center">
+<img width="6%" title="IntelliJ IDEA" src="media/IJ.svg"> 
+<img width="6%" title="Appium" src="media/Appium.svg">
+<img width="6%" title="Browserstack" src="media/Browserstack.svg">
 <img width="6%" title="Java" src="media/java.svg">
-<img width="6%" title="Selenide" src="media/selenide.svg">
-<img width="6%" title="Selenoid" src="media/selenoid.svg">
 <img width="6%" title="Allure Report" src="media/allure.svg">
 <img width="6%" title="Gradle" src="media/gradle.svg">
 <img width="6%" title="JUnit5" src="media/jUnit5.svg">
@@ -59,14 +60,6 @@ gradle clean remote_test -DdeviceHost=remote
 <p align="center">
 <img title="allure-report" src="media/JenkinsProject.png">
 </p>
-
-### Параметры сборки
-В сборку были добавлены следующие параметры:
-* TASK (набор тестов для запуска)
-* <code>BROWSER</code> – браузер, в котором будут выполняться тесты. По умолчанию - <code>chrome</code>.
-* <code>SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По умолчанию 1920x1080
-* <code>VERSION</code> – версия браузера, в которой будут выполняться тесты. По умолчанию - <code>100.0</code>.
-* <code>SELENOID</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 
 ## <img src="media/jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
 <p align="center">
