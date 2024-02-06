@@ -102,5 +102,5 @@ gradle clean remote_test -DdeviceHost=remote
 
 К каждому тесту в отчете прилагается видео прогона.
 <p align="center">
-  <img title="Selenoid Video" src="media/videoTest.giff">
+  <img title="Selenoid Video" src="media/videoTest.gif">
 </p>
