@@ -1,4 +1,8 @@
 ## Проект по автоматизации тестирования мобильной версии сайта [Википедия](https://ru.wikipedia.org/wiki/Заглавная_страница)
+<p align="center">
+<img title="Wiki" src="media/wiki.jpg">
+</p>
+
 ## :pushpin: Содержание:
 
 - [Использованный стек технологий](#computer-использованный-стек-технологий)
@@ -56,7 +60,7 @@ gradle clean remote_test -DdeviceHost=remote
 
 ```
 
-## <img src="media/jenkins.svg" title="Allure TestOps" width="4%"/> Созданный проект в [Jenkins](https://jenkins.autotests.cloudjob/hw23_mobileTest/)
+## <img src="media/jenkins.svg" title="Allure TestOps" width="4%"/> Созданный проект в [Jenkins](https://jenkins.autotests.cloud/job/hw23_mobileTest/)
 <p align="center">
 <img title="allure-report" src="media/JenkinsProject.png">
 </p>
