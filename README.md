@@ -62,12 +62,7 @@ gradle clean remote_test -DdeviceHost=remote
 
 ## <img src="media/jenkins.svg" title="Allure TestOps" width="4%"/> Созданный проект в [Jenkins](https://jenkins.autotests.cloud/job/hw23_mobileTest/)
 <p align="center">
-<img title="allure-report" src="media/JenkinsProject.png">
-</p>
-
-## <img src="media/jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
-<p align="center">
-<img title="allure-report" src="media/JenkinsJoba.png">
+<img title="allure-report" src="media/jenkinsPrj.png">
 </p>
 
 ## <img src="media/allure.svg" title="Allure TestOps" width="4%"/> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/hw23_mobileTest/5/allure/)
