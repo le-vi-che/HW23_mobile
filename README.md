@@ -95,12 +95,12 @@ gradle clean remote_test -DdeviceHost=remote
 После завершения сборки, бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img title="Telegram Notifications" src="media/telegramBot.jpg">
+<img width="40%"  title="Telegram Notifications" src="media/telegramBot.jpg">
 </p>
 
 ## Видео примера запуска тестов в Selenoid
 
 К каждому тесту в отчете прилагается видео прогона.
 <p align="center">
-  <img title="Selenoid Video" src="video/videoTest.gif">
+  <img title="Selenoid Video" src="media/videoTest.gif">
 </p>
