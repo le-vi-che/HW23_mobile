@@ -15,7 +15,7 @@ public interface browserstackConfig extends Config {
     @Key("key")
     String getKey();
 
-    @Key("app")
+    @Key("apps")
     String getApp();
 
     @Key("device")
