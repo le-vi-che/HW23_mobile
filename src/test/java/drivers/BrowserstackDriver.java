@@ -19,26 +19,19 @@ public class BrowserstackDriver implements WebDriverProvider {
     @Override
     public WebDriver createDriver(@Nonnull Capabilities capabilities) {
         MutableCapabilities caps = new MutableCapabilities();
-        // caps.merge(capabilities);
-
-        // Set your access credentials
+      
         caps.setCapability("browserstack.user",  config.getUser());
         caps.setCapability("browserstack.key", config.getKey());
 
-        // Set URL of the application under test
         caps.setCapability("apps", config.getApp());
 
-        // Specify device and os_version for testing
         caps.setCapability("device", config.getDevice());
         caps.setCapability("os_version", config.getOsVersion());
 
-        // Set other BrowserStack capabilities
         caps.setCapability("project", config.getProject());
         caps.setCapability("build", config.getBuild());
         caps.setCapability("name", config.getName());
 
-        // Initialise the remote Webdriver using BrowserStack remote URL
-        // and desired capabilities defined above
         try {
             return new RemoteWebDriver(
                     new URL(config.getBaseUrl()), caps);
