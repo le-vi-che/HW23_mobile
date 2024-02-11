@@ -17,17 +17,17 @@
   ## :computer: Использованный стек технологий
   
  <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/IJ.svg"> 
-<img width="6%" title="Appium" src="media/Appium.svg">
-<img width="6%" title="Browserstack" src="media/Browserstack.svg">
-<img width="6%" title="Java" src="media/java.svg">
-<img width="6%" title="Allure Report" src="media/allure.svg">
-<img width="6%" title="Gradle" src="media/gradle.svg">
-<img width="6%" title="JUnit5" src="media/jUnit5.svg">
-<img width="6%" title="GitHub" src="media/gitHub.svg">
-<img width="6%" title="Jenkins" src="media/jenkins.svg">
-<img width="6%" title="Telegram" src="media/telegram.svg">
-<img width="5%" title="Jira" src="media/Jira.svg">
+<a href="https://www.jetbrains.com/idea/"><img src="media/IJ.svg" width="60" height="60"  alt="IDEA"/></a>
+<a href="https://appium.io/docs/en/latest/"><img src="media/Appium.svg" width="60" height="60"  alt="Appium"/></a>
+<a href="https://www.browserstack.com/"><img src="media/Browserstack.svg" width="60" height="60"  alt="Browserstack"/></a>
+<a href="https://www.java.com/"><img src="/media/java.svg" width="60" height="60"  alt="Java"/></a>
+<a href="https://github.com/allure-framework"><img src="media/allure.svg" width="60" height="60"  alt="Allure"/></a>
+<a href="https://gradle.org/"><img src="media/gradle.svg" width="60" height="60"  alt="Gradle"/></a>
+<a href="https://junit.org/junit5/"><img src="media/jUnit5.svg" width="60" height="60"  alt="JUnit 5"/></a>
+<a href="https://github.com/"><img src="media/gitHub.svg" width="60" height="60"  alt="GitHub"/></a>
+<a href="https://www.jenkins.io/"><img src="media/jenkins.svg" width="60" height="60"  alt="Jenkins"/></a>
+<a href="https://web.telegram.org/"><img src="media/telegram.svg" width="60" height="60"  alt="Telegram"/></a>
+<a href="https://www.atlassian.com/software/jira/"><img src="media/Jira.svg" width="60" height="60" alt="Jira" title="Jira"/></a> 
 </p>
 
 - В проекте автотесты написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/).
